@@ -52,10 +52,10 @@ Searched for any `ProcessCommandLine` that contained the string "tor-browser-win
 
 ```kql
 
-DeviceProcessEvents  
-| where DeviceName == "jrtest-17"  
-| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe"  
-| project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
+DeviceProcessEvents
+| where DeviceName == "jrtest-17"
+| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.5.5.exe"
+| project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256,ProcessCommandLine
 ```
 <img width="1798" height="524" alt="image" src="https://github.com/user-attachments/assets/559b749b-22e2-4e77-8ff5-78b290202994" />
 
