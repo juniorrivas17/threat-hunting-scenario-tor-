@@ -79,15 +79,7 @@ DeviceFileEvents
 - **Author Contact**: https://www.linkedin.com/in/livio-rivas-104240379/
 - **Date**: August 15, 2025
 
-## Validated By:
-- **Reviewer Name**: 
-- **Reviewer Contact**: 
-- **Validation Date**: 
 
----
-
-## Additional Notes:
-- **None**
 
 ---
 
